@@ -1,0 +1,109 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  body {
+    background: url('https://static8.depositphotos.com/1389325/1039/v/600/depositphotos_10390856-stock-illustration-chemistry-background-molecule-models-and.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }
+  
+  /* Pozicionálás */
+  
+  .profile-card {
+    width: 600px;
+    max-width: calc(100vw - 10px);
+  }
+  
+  h1 {
+    font-variant: small-caps;
+    font-size: 36px;
+  }
+  
+  .head, .links {
+    text-align: center;
+  }
+  
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #666;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: all 2s ease-in-out;
+    filter: grayscale(80%);
+    transform: rotate(360deg);
+  }
+  
+  .profile-image {
+    margin-top: -60px;
+  }
+  
+  /* Contact links */
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .head, .about {
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  
+  .content {
+    padding: 5% 10%;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .content {
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+  }
+
+  a:hover {
+    color:chocolate;
+  }
+
+  .icon {
+    font-size: 14px;
+    transition: font-size 3s 0s;
+  }
+  
+  .icon:hover {
+    font-size: 30px;
+  }
+  
+
+  
+  
+  
+  
